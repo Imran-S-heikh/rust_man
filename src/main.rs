@@ -19,5 +19,6 @@ fn main() {
     // common_concepts::variables_and_mutibility::run();
     // struct_prac::define_instantiate::run();
     // modules::module_system::this_mod();
-    collections::vector::run();
+    // collections::vector::run();
+    collections::exercise::find_median_mode();
 }
