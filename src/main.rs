@@ -1,11 +1,12 @@
 // mod gussing_game;
 // mod common_concepts;
-mod control_flow;
-mod ownership;
-mod struct_prac;
-mod enums;
-mod modules;
-mod collections;
+// mod control_flow;
+// mod ownership;
+// mod struct_prac;
+// mod enums;
+// mod modules;
+// mod collections;
+mod generic;
 
 // use control_flow::looping::loop_returns_value;
 // use ownership::{slice_type,reference_borrowing};
@@ -20,5 +21,7 @@ fn main() {
     // struct_prac::define_instantiate::run();
     // modules::module_system::this_mod();
     // collections::vector::run();
-    collections::exercise::find_median_mode();
+    // collections::exercise::find_median_mode();
+    generic::prac::run();
+    generic::lifetime::lifetime();
 }
