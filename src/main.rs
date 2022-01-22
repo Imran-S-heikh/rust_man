@@ -22,6 +22,6 @@ fn main() {
     // modules::module_system::this_mod();
     // collections::vector::run();
     // collections::exercise::find_median_mode();
-    generic::prac::run();
+    // generic::prac::run();
     generic::lifetime::lifetime();
 }
