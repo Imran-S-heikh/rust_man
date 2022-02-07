@@ -7,6 +7,7 @@
 // mod modules;
 // mod collections;
 mod generic;
+mod closures;
 
 // use control_flow::looping::loop_returns_value;
 // use ownership::{slice_type,reference_borrowing};
@@ -23,5 +24,8 @@ fn main() {
     // collections::vector::run();
     // collections::exercise::find_median_mode();
     // generic::prac::run();
-    generic::lifetime::lifetime();
+    // generic::lifetime::lifetime();
+    let intensity = 10;
+    let random_number = 7;
+    closures::generate_workout::generate_workout(intensity, random_number) 
 }
