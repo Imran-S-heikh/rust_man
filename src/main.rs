@@ -25,7 +25,8 @@ fn main() {
     // collections::exercise::find_median_mode();
     // generic::prac::run();
     // generic::lifetime::lifetime();
-    let intensity = 10;
-    let random_number = 7;
-    closures::generate_workout::generate_workout(intensity, random_number) 
+    // let intensity = 10;
+    // let random_number = 7;
+    // closures::generate_workout::generate_workout(intensity, random_number);
+    closures::iterator::iterator(); 
 }
