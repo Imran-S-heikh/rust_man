@@ -8,6 +8,7 @@
 // mod collections;
 mod generic;
 mod closures;
+mod smart_pointer;
 
 // use control_flow::looping::loop_returns_value;
 // use ownership::{slice_type,reference_borrowing};
@@ -29,4 +30,5 @@ fn main() {
     // let random_number = 7;
     // closures::generate_workout::generate_workout(intensity, random_number);
     closures::iterator::iterator(); 
+    smart_pointer::run();
 }
