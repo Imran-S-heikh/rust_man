@@ -6,10 +6,15 @@
 // mod enums;
 // mod modules;
 // mod collections;
-mod generic;
-mod closures;
-mod smart_pointer;
-mod concurrency;
+// mod generic;
+// mod closures;
+// mod smart_pointer;
+// mod concurrency;
+// mod object_oriented_pattern;
+mod tfmt;
+
+// use object_oriented_pattern as oop;
+
 
 // use control_flow::looping::loop_returns_value;
 // use ownership::{slice_type,reference_borrowing};
@@ -32,5 +37,6 @@ fn main() {
     // closures::generate_workout::generate_workout(intensity, random_number);
     // closures::iterator::iterator(); 
     // smart_pointer::run();
-    concurrency::run();
+    // concurrency::run();
+    // oop::run();
 }
